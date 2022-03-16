@@ -1,16 +1,16 @@
 package com.clean.architecture.chapter7.isp
 
-class Ops {
+class Ops :Ops1,Ops2,Ops3{
 
-    fun op1(){
-
-    }
-
-    fun op2(){
+    override fun op1(){
 
     }
 
-    fun op3(){
+    override fun op2(){
+
+    }
+
+    override fun op3(){
 
     }
 
