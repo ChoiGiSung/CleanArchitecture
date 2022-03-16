@@ -1,9 +1,9 @@
-package com.clean.architecture.chapter7
+package com.clean.architecture.chapter7.srp
 
 class EmployeeFacade(
-    private val payCalculator :PayCalculator,
-    private val hourReporter :HourReporter,
-    private val employeeSaver :EmployeeSaver
+    private val payCalculator : PayCalculator,
+    private val hourReporter : HourReporter,
+    private val employeeSaver : EmployeeSaver
 )
 
 {

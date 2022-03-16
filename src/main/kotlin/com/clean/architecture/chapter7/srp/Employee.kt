@@ -1,4 +1,4 @@
-package com.clean.architecture.chapter7
+package com.clean.architecture.chapter7.srp
 
 class Employee(
     private val employeeFacade: EmployeeFacade

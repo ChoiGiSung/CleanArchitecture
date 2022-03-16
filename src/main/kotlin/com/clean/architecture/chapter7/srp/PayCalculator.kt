@@ -1,4 +1,4 @@
-package com.clean.architecture.chapter7
+package com.clean.architecture.chapter7.srp
 
 class PayCalculator(
     override var workTime: Int
